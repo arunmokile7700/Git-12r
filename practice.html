@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <legend><h1> Application Form</h1></legend>
+    <form>
+<leble for="first name"><h5>First Name:</leble>
+        <input type="text" name="fname" id="fname" placeholder="enter ur name" required/><br><br>
+<leble for="surname">Last Name:</leble>
+<input type="text" name="lname" id="lname" placeholder="enter ur surname" required/><br><br>
+<leble for="phone number">Mobile Number:</leble>
+<input type="tel" name="phn number" id="phn number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"  placeholder="phone number" required/><br><br>
+<leble for="mail">Mail:</leble>
+<input type="gmail" id="mail" name="mail" placeholder="ex:-harish@gmail.com" required/><br><br>
+<leble for="pswd">Passward:</leble>
+<input type="passward" id="pswd" name="pswd" placeholder="********" required/><br><br>
+<leble for="pswd">Confirm Passward:</leble>
+<input type="passward" id="pswd" name="pswd" value="" placeholder="********" required/><br>
+ <p>Select Your Gender</P>
+    <input type="radio" id="male" name="gender" value="male"/>Male
+<input type="radio" id="female" value="female" name="gender"/>Female
+<input type="radio" id="others" value="osthers" name="gender"/>Others<br><br>
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor"><br><br>
+        <label for="birthday">Birthday:</label>
+        <input type="datetime-local" id="birthday" name="birthday"><br><br>
+        <p>Select Your Language</p>
+       <leble for="telugu">Telugu</leble>
+<input type="checkbox" id="tlgu" name="fav-language1" value="tlgu"/><br>
+      <leble for="English">English</leble>
+      <input type="checkbox" id="eng" name="fav-language2" value="english"/><br>
+      <leble for="hindi">Hindi</leble>
+      <input type="checkbox" id="hindi" name="fav-language3" value="hindi"/><br> 
+      <p>Address:</p>
+<textarea discription=""></textarea><br>
+<p>Work Location</p>
+<select id="city" value="city" name="preffer_city" multiple>
+<option value="hyd">hyderabad</option>
+<option value="bngl">bengulur</option>
+<option value="vzk">vizak</option>
+<option valu="krla">kerala</option>
+<option value="chnai">chennai</option>
+</select><br><br>
+<leble for="file">Resume:</leble>
+<input type="file" id="file" name="file" muliple/><br><br>
+<p> Favorite Color</p>
+<input list="colorss" id="colors" name="colors"/>
+<datalist id="colorss">
+<option value="blue">
+<option value="green">
+<option value="yellow">
+    <option value="orange">
+</datalist>
+
+       <br><br> <label for="vol">Feedback Volume:</label><br>
+        <input type="range" id="vol" name="vol" min="0" max="100"><br><br>
+    <input type="reset"/><br><br>
+    <botton><img src="./button 2.jpg" height="25" width="60>"</botton>
+    
+    
+
+    
+    
+    
+    
+    
+    </form>
+</fieldset>      
+
+
+</body>
+</html>
